@@ -1,0 +1,75 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    header{
+        padding: 5px 0;
+    }
+    .c_menu ul li a {
+        margin-bottom: 5px;
+      padding: 0 13px !important;
+    }
+    .c_logo {
+        width: 170px;
+    }
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {   
+    .c_menu ul li a {
+        margin-bottom: 5px;
+         padding: 0 13px !important;
+    }
+}
+
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .box{
+
+    background-color: rgb(59, 130, 0);
+} 
+/* banner starts */
+.banner{
+    padding: 15px 0 60px;
+}
+/* banner ends */
+.b_text{
+    text-align: center;
+}
+.b_h1{
+    margin: 10px 0 10px;
+    font-size: 38px;
+    line-height: 50px;
+}
+.b_p2{
+    line-height: 30px;
+}
+.b_img{
+    margin-bottom: 50px;
+    padding: 0 150px;
+}
+
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { .box{
+
+    background-color: rgb(17, 236, 218);
+} }
+ /* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { .box{
+
+    background-color: rgb(214, 195, 110);
+} }
+ /* Large devices (desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width:   1699.98px) { .box{
+
+    background-color: rgb(1, 8, 8);
+} }
+ /* Large devices (desktops, 1700px and up) */
+@media (min-width: 1700px) and (max-width: 1999.98px) { .box{
+
+    background-color: rgb(4, 84, 231);
+} }
+
+ /* Extra large devices (large desktops, 20000px and up) */
+@media (min-width: 2000px) { ... }
